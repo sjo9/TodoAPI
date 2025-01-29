@@ -11,7 +11,7 @@ namespace TodoAPI.Models
 
         public DbSet<TodoItem> TodoItems { get; set; } = null!;
 
-        //Q2 #6 update the code
+        //Q2 #6 update the code to fix
         public void AddQuiz2()
         {
             var newTodo = new TodoItem
